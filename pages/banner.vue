@@ -58,10 +58,12 @@ useSeoMeta({
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 1rem;
     gap: 2rem;
     background-image: linear-gradient(to right, #815d19, #e99b0c 30%, #815d19);
 
     @media (min-width: $bp-sm) {
+        padding: 0 .5rem;
         gap: 6rem;
     }
 
@@ -103,7 +105,13 @@ useSeoMeta({
 }
 
 .footer p {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     padding: 1rem 0;
+
+    @media (min-width: $bp-sm) {
+        font-size: 1.8rem;
+
+    }
+
 }
 </style>
